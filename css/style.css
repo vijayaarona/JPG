@@ -102,7 +102,7 @@ iframe {
 .main_w_title h2 {
   font-size: 40px;
   font-family: "PT Sans", sans-serif;
-  color: #31353d;
+  color: #fff;
   font-weight: bold;
   text-transform: uppercase;
   position: relative;
@@ -118,7 +118,7 @@ iframe {
 .main_w_title h6 {
   font-size: 15px;
   font-family: "PT Sans", sans-serif;
-  color: #E70022;
+  color: #FFC5CE;
   font-weight: bold;
   padding-top: 12px; }
 
@@ -276,11 +276,11 @@ iframe {
       color: #494848; }
 
 .header_top_area {
-  background: #272727; }
+  background: #399cdb; }
   .header_top_area .pull-left a {
     font-size: 13px;
     font-family: "Open Sans", sans-serif;
-    color: #747473;
+    color: #fff;
     line-height: 50px;
     margin-right: 60px;
     position: relative;
@@ -295,7 +295,7 @@ iframe {
       height: 100%; }
     .header_top_area .pull-left a i {
       font-size: 20px;
-      color: #fedb03;
+      color: #dd0051;
       padding-right: 10px; }
     .header_top_area .pull-left a:first-child {
       margin-left: 40px; }
@@ -326,12 +326,12 @@ iframe {
     color: #00aced; }
 
 .welcome_style {
-  color: #fedb03;
+  color: #fff;
   font-size: 14px;
   line-height: 50px; }
 
 .main_menu_area {
-  background: #4d408d;
+  background: #dd0051;
   z-index: 30; }
   .main_menu_area .navbar.navbar-default {
     background: transparent;
@@ -379,8 +379,8 @@ iframe {
             font-weight: normal;
             text-align: center; }
       .main_menu_area .navbar.navbar-default .nav.navbar-nav.navbar-right li:hover a, .main_menu_area .navbar.navbar-default .nav.navbar-nav.navbar-right li.active a {
-        background: #34f932;
-        color: #033c02; }
+        background: #8a0938;
+color: #fff; }
       .main_menu_area .navbar.navbar-default .nav.navbar-nav.navbar-right li.submenu {
         position: relative; }
         @media (min-width: 992px) {
@@ -415,10 +415,10 @@ iframe {
           display: block;
           float: none;
           margin-right: 0px;
-          border-bottom: 1px solid #004EA1; }
+          border-bottom: 1px solid #a80843; }
           .main_menu_area .navbar.navbar-default .nav.navbar-nav.navbar-right li.submenu .dropdown-menu li a {
             line-height: 30px;
-            color: #033c02;
+            color: #fff;
             font-family: "Montserrat", sans-serif;
             font-weight: normal;
             font-size: 14px;
@@ -650,7 +650,7 @@ iframe {
 .get_btn {
   display: inline-block;
   padding: 0px 35px;
-  border: 2px solid #E70022;
+  border: 2px solid #fff;
   line-height: 50px;
   font-size: 20px;
   font-family: "Open Sans", sans-serif;
@@ -665,7 +665,7 @@ iframe {
     content: "";
     position: absolute;
     z-index: -1;
-    background: #E70022;
+    background: #dd0051;
     height: 250px;
     width: 300px;
     border-radius: 50%;
@@ -674,7 +674,8 @@ iframe {
     bottom: 100%;
     transition: all .7s; }
   .get_btn:hover {
-    color: #fff; }
+    color: #fff;
+  border-color: #dd0051 }
     .get_btn:hover:before {
       bottom: -50px; }
 
@@ -819,7 +820,7 @@ iframe {
 /* Get Quote area css
 ============================================================================================ */
 .get_quote_area {
-  background: #1cb71b;
+  background: #085382;
   padding: 25px 0px; }
   .get_quote_area .pull-left h4 {
     font-size: 22px;
@@ -860,7 +861,7 @@ iframe {
 /* Address area css
 ============================================================================================ */
 .address_area {
-  background: #ffcd00;
+  background: #ccf0f6;
   padding: 32px 0px; }
 
 .address_inner .media .media-left {
@@ -947,14 +948,18 @@ iframe {
 ============================================================================================ */
 .who_we_are_area {
   padding-top: 100px;
-  background: #EEEEEE; }
+  /* background: #EEEEEE;*/ 
+  background-image: linear-gradient(to right,#045bd3,#45ddf8)
+} 
   .who_we_are_area .main_w_title {
     padding-bottom: 30px; }
 
 .md_message_area {
   padding-top: 100px;
-  background: #602253;
-  padding-bottom: 100px; }
+  /* background: #602253; */
+  background-image: linear-gradient(to right,#bca9ff,#937cff);
+  padding-bottom: 100px; 
+}
   .md_message_area .main_w_title {
     padding-bottom: 30px; }
 
@@ -980,7 +985,7 @@ iframe {
 .who_we_inner .who_we_left_content p {
   font-size: 15px;
   line-height: 26px;
-  color: #444444;
+  color: #fff;
   padding-bottom: 30px; }
 .who_we_inner .who_we_left_content .border_bar {
   height: 1px;
@@ -1130,7 +1135,7 @@ h2.mdtitle span {
 /* Our Service area css
 ============================================================================================ */
 .our_service_area {
-  background: #1e2126;
+  background: #163133;
   overflow: hidden;
   clear: both; }
   .our_service_area .left_service {
@@ -1638,7 +1643,7 @@ h2.mdtitle span {
 /* Counter area css
 ============================================================================================ */
 .counter_area {
-  background: #31353d;
+  background: #ff4e8e;
   padding: 60px 0px; }
 
 .counter_item {
@@ -1750,7 +1755,7 @@ h2.mdtitle span {
 /* Clients area css
 ============================================================================================ */
 .clients_area {
-  background: #f5f5f5;
+  background: #f9e657;
   padding: 90px 0px; }
 
 .clients_slider .item {
@@ -2690,7 +2695,7 @@ h2.mdtitle span {
 /* Footer area css
 ============================================================================================ */
 .footer_widgets_area {
-  background: #38495A;
+  background: #092e56;
   padding: 70px 0px; }
   .footer_widgets_area.footer_bg {
     background: linear-gradient(0deg, rgba(49, 53, 61, 0.96), rgba(49, 53, 61, 0.96)), url(../images/footer-bg.jpg) no-repeat scroll center center;
@@ -2764,7 +2769,7 @@ h2.mdtitle span {
 
 .footer_copy_right {
   text-align: center;
-  background: #092E56;
+  background: #0a3461;
   padding: 41px 0px; }
   .footer_copy_right h4 {
     color: #e8e8e8;
@@ -3171,5 +3176,8 @@ background:#fff !important
   bottom: 10px; */
 }
 /* ==================================== End MD Section Slideshow ====================================  */
-
+.tp-bullets
+{
+  display: none !important;
+}
 /*# sourceMappingURL=style.css.map */
